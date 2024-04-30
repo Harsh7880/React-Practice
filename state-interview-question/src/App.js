@@ -2,6 +2,7 @@ import './App.css';
 import {useState} from 'react';
 function App() {
   const [value,setValue] = useState(1);
+  // const [multipliedValue, setMultipliedValue] = useState(1);
   let multipliedValue  = value*5;
   return (
     <div className="App">
